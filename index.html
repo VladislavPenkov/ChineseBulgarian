@@ -34,16 +34,16 @@
 					<a class="nav-link" href="#">Начало</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Информация</a>
+					<a class="nav-link" href="#info">Информация</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Услуги</a>
+					<a class="nav-link" href="#services">Услуги</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Екип</a>
+					<a class="nav-link" href="#team">Екип</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Връзка</a>
+					<a class="nav-link" href="#contact">Връзка</a>
 				</li>
 		</ul>
 
@@ -97,7 +97,7 @@
 	</div>
 
 	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-		<a href="#"><button class="btn btn-outline-secondary -btn-lg">Научете повече</button></a>
+		<a href="#info"><button class="btn btn-outline-secondary -btn-lg">Научете повече</button></a>
 	</div>
 
 </div>
@@ -123,7 +123,7 @@
 
 <!--- Three Column Section -->
 
-<div class="container-fluid padding">
+<div id="services" class="container-fluid padding">
 <div class="row text-center padding">
 	<div class="col-xs-12 col-sm-6 col-md-4">
 		<i class="fas fa-book"></i>
@@ -152,7 +152,7 @@
 
 <!--- Two Column Section -->
 
-<div class="container-fluid padding">
+<div id="info" class="container-fluid padding">
 <div class="row padding">
 
 	<div class="col-md-12 col-lg-6">
@@ -209,7 +209,7 @@
 
 <!--- Cards -->
 
-<div class="container-fluid padding">
+<div id="team" class="container-fluid padding">
 <div class="row padding">
 
 	<div class="col-md-4">
@@ -221,10 +221,37 @@
 					и главният преподавател на C&B. Горд да се нарече българин и китаец, Крис е 
 					израстнал с българската и китайската култура в себе си.
 				</p>
-				<a href="#" class="btn btn-outline-secondary">Повече информация</a>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+		
+							<div class="modal fade" id="firstModal">
+								<div class="modal-dialog modal-sm">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h1>Title</h1>
+										</div>
+										<div class="modal-body">
+											This is the body
+										</div>
+											<div class="modal-footer">
+												<input class="btn btn-primary" data-dismiss="modal" value="Close">
+											</div>
+									</div>
+								</div>
+							</div>
+		
+						</div>
+					</div>
+				</div>	
+
+				<a href="#" data-toggle="modal" data-target="#firstModal" class="btn btn-outline-secondary">Повече информация</a>
 			</div>
 		</div>
+			
 	</div>
+
 
 	<div class="col-md-4">
 		<div class="card">
@@ -234,7 +261,32 @@
 				<p class="card-text">Ани е българка, имала възможността да живее за една година
 					в Китай, благодарение на уменията ѝ на езика.
 				</p>
-				<a href="#" class="btn btn-outline-secondary">Повече информация</a>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+		
+							<div class="modal fade" id="secondModal">
+								<div class="modal-dialog modal-sm">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h1>Title 2</h1>
+										</div>
+										<div class="modal-body">
+											This is the body 2
+										</div>
+											<div class="modal-footer">
+												<input class="btn btn-primary" data-dismiss="modal" value="Close">
+											</div>
+									</div>
+								</div>
+							</div>
+		
+						</div>
+					</div>
+				</div>
+
+				<a href="#" data-toggle="modal" data-target="#secondModal" class="btn btn-outline-secondary">Повече информация</a>
 			</div>
 		</div>
 	</div>
@@ -248,7 +300,32 @@
 					на своето отлично владеене на езика. Станчо, моля те дай ми твоя снимка, никъде
 					не намерих и една нормална. <br> -Влади
 				</p>
-				<a href="#" class="btn btn-outline-secondary">Повече информация</a>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+		
+							<div class="modal fade" id="thirdModal">
+								<div class="modal-dialog modal-sm">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h1>Title 3</h1>
+										</div>
+										<div class="modal-body">
+											This is the body 3
+										</div>
+											<div class="modal-footer">
+												<input class="btn btn-primary" data-dismiss="modal" value="Close">
+											</div>
+									</div>
+								</div>
+							</div>
+		
+						</div>
+					</div>
+				</div>
+
+				<a href="#" data-toggle="modal" data-target="#thirdModal" class="btn btn-outline-secondary">Повече информация</a>
 			</div>
 		</div>
 	</div>
@@ -257,9 +334,8 @@
 
 <!--- Two Column Section -->
 
-<div class="container-fluid padding">
 	
-	<div class="container-fluid padding">
+	<div id="contact" class="container-fluid padding">
 	<div class="row padding">
 	
 		<div class="col-md-12 col-lg-6">
@@ -311,7 +387,7 @@
 	<div class="col-md-6">
 
 		<hr class="light">
-		<p>0 888 978 088</p>
+		<p>6969-69-6969</p>
 		<p>cbinterchange@gmail.com</p>
 		<p>Бул. Георги С. Раковски 25</p>
 		<p>София, България</p>
@@ -339,3 +415,10 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
